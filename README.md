@@ -11,7 +11,7 @@ Information on how to install Windows 11 IoT Enterprise LTSC 2024 on the Raspber
 * Boot the Raspberry Pi 5 from the USB stick while a microSD card is inserted
 * It should boot into the Windows 11 installer
 * Delete all partitions on the microSD card and install Windows 11 into the Unallocated Space
-* At the end, there will be a dialog box saying "Windows 11 installation failed" without further explanation
+* At the end, there will be a dialog box saying **"Windows 11 installation has failed"** without further explanation - would be interesting to see a log at that point
 * At that point, shut down and power off the Raspberry Pi 5
 * The microSD card is currently unbootable, because it lacks the rpi5-uefi files and the Windows 11 EFI boot files and BCE files
 * We need to put those on the 100 MB ESP partition on the microSD card; unfortunately Windows 11 doesn't let one mount these easily. Hence we use use `WinEFIMounter-static.exe`
