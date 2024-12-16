@@ -21,3 +21,4 @@ Information on how to install Windows 11 IoT Enterprise LTSC 2024 on the Raspber
 * Boot the Raspberry Pi 5 from the USB stick
 * Press Shift + F10
 * __FIXME:__ How to use command-line tools like `bootrec` or `bcdboot` to repair the boot configuration or recreate the BCD store?
+* __FIXME:__ At this point, Windows 11 seems to be "half-installed" in `$WINDOWS.~BT\NewOS\Windows`
