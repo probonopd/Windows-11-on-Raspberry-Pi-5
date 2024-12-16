@@ -16,4 +16,6 @@
 * Unfortunately the Explorer in Windows 11 doesn't let one browse that partition easily either. Hence we have to use the command line with Administrative Privileges and run commands like `xcopy D:\$Windows.~BT\Efi\*.* Z:\ /s /e /h` (assuming that the USB stick with the Windows installer is `D:` and the mounted ESP is `Z:`)
 * Similarly, copy the 3 rpi5-uefi files
 * Booting the microSD card now brings up the Windows bootloader, saying no valid BCE was found
-* __FIXME:__ How to copy/create valid BCE on the microSD card?
+* Boot the Raspberry Pi 5 from the USB stick
+* Press Shift + F10
+* __FIXME:__ How to use command-line tools like `bootrec` or `bcdboot` to repair the boot configuration or recreate the BCD store?
