@@ -1,5 +1,7 @@
 # Windows 11 on Raspberry Pi 5
 
+Information on how to install Windows 11 IoT Enterprise LTSC 2024 on the Raspberry Pi 5 is hard to find or is not even available. Through trial and error I find the following works up to a certain point, at which I don't know how to proceed further. Any hints appreciated (in GitHub Issues).
+
 * Download `en-us_windows_11_iot_enterprise_ltsc_2024_arm64_dvd_ec517836.iso`
 * Download and install RUFUS
 * Download UEFI for Raspberry Pi 5 from https://github.com/worproject/rpi5-uefi/releases
